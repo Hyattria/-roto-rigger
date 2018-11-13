@@ -1,9 +1,9 @@
 {
-  "name": "payp-center",
+  "name": "pay-center",
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "serve": "vue-cli-service serve",
+    "start": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
   },
@@ -12,6 +12,8 @@
     "vue-router": "^3.0.1"
   },
   "devDependencies": {
+    "@roto/bridge": "^1.1.0",
+    "@roto/component-vact": "^0.1.5",
     "@vue/cli-plugin-babel": "^3.0.5",
     "@vue/cli-plugin-eslint": "^3.0.5",
     "@vue/cli-service": "^3.0.5",
@@ -19,7 +21,11 @@
     "eslint": "^5.8.0",
     "eslint-plugin-vue": "^5.0.0-0",
     "node-sass": "^4.9.0",
+    "postcss-pxtorem": "^4.0.1",
+    "qiniu": "^7.2.1",
+    "sa-sdk-javascript": "^1.12.2",
     "sass-loader": "^7.0.1",
+    "vant": "^1.4.3",
     "vue-template-compiler": "^2.5.17"
   }
 }
